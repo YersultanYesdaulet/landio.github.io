@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		/* Как будет готов main, стереть стили */
+		* {
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<!-- This is for testing your code!-->
+<body>
+
+
+	<!-- Гайд для форм (не Удаляй, ухо откушу...)-->
+	<!-- Гайд для форм (не Удаляй, ухо откушу...)-->
+	<!-- Гайд для форм (не Удаляй, ухо откушу...)-->
+	<!-- Гайд для форм (не Удаляй, ухо откушу...)-->
+
+	<form>
+		<input class="input input_text" type="text"  name="name" placeholder="Your name" required maxlength="50"> 
+		<input class="input input_email" type="email" name="email" placeholder="Email address" required maxlength="64">
+		<input class="input input_password" type="password" name="password" placeholder="Enter a password" required>
+		<div class="checkbox">
+			<input class="checkbox__input" type="checkbox" name="terms" id="terms-label" required>
+			<label class="checkbox__label" for="terms-label" >
+				I agree to Land.io’s <a href="#" class="checkbox__link">terms of service</a>
+			</label>
+		</div>
+
+	</form>
+
+	<!-- Nav test start-->
+	<nav class="nav">
+		<a class="nav__link link link_animated link_right-margin" href="#">About Land.io</a>
+		<a class="nav__link link link_animated link_right-margin" href="#">How it works</a>
+		<a class="nav__link link link_animated link_right-margin" href="#">Support</a>
+		<a class="nav__link link link_animated link_right-margin" href="#">Log in</a>
+		<a class="nav__link link link_animated link_right-margin" href="#">Log in</a>
+		<img class="nav__link link link_animated" src="src/icons/nav/search.svg"></img>
+	</nav>
+	<!-- Nav test end-->
+
+
+	<!-- Tabs test start-->
+	<div class="tabs">
+        <div class="tabs__content tabs__content_0"></div>
+        <div class="tabs__content tabs__content_1"></div>   
+        <div class="tabs__content tabs__content_2"></div>  
+        <div class="tabs__nav">
+            <div class="tabs__element">
+                <input type="radio" class="tabs__input" id="0" name="tab" aria-hidden="true" data-id="0">
+                <label for="0" class="tabs__label">
+                    <img class="tabs__img tabs__img_0" src="src/icons/tabs/0.jpg">
+                </label>
+            </div>
+            <div class="tabs__element">
+                <input type="radio" class="tabs__input" id="1" name="tab" aria-hidden="true" data-id="1" checked>
+                <label for="1" class="tabs__label">
+                    <img  class="tabs__img tabs__img_1" src="src/icons/tabs/1.jpg">
+                </label>
+            </div>
+            <div class="tabs__element">
+                <input type="radio" class="tabs__input" id="2" name="tab" aria-hidden="true" data-id="2">
+                <label for="2" class="tabs__label  tabs__img_2">
+                    <img class="tabs__img  tabs__img_2" src="src/icons/tabs/2.jpg">
+                </label>
+            </div>
+        </div>    
+    </div> <!-- Tabs test end-->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!-- jquery-->
+    <script src="src/tab.js"></script> <!-- Tabs js-->
+
+</body>
+</html>
